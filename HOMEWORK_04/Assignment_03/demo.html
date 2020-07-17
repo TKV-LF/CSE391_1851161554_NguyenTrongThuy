@@ -96,7 +96,7 @@
         <button class="bttn-slant bttn-md bttn-success">Exercise 6</button>
     </div>
     <div>
-        <iframe src="Ex1/index.html" width="100%" height="680px" frameborder="0"></iframe>
+        <iframe src="Exercise_01/index.html" width="100%" height="680px" frameborder="0"></iframe>
     </div>
     
     <script>
@@ -104,14 +104,11 @@
             $("button").click(function () { 
                 var index = $(this).index();
                 if (index >= 1) {
-                    $("iframe").attr("src", "Ex"+ index + "/index.html");
+                    $("iframe").attr("src", "Exercise_0"+ index + "/index.html");
                 }
                 
             });
 
-            $("#iconNav").click(function () { 
-               alert('sadsad');
-            });
         });
     </script>
 </body>
