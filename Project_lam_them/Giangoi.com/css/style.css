@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 1em/1.65em 'Open Sans',"Arial",sans-serif !important;
+    overflow: scroll;
+}
+
+header {
+    overflow: visible;
+    z-index: 1;
+    transition: all .3s ease-in-out;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+
+
+.btn  i{
+    color: black;
+}
+
+h1 {
+    color: #343434;
+    font-weight: 700 !important;
+    cursor: pointer;
+    margin: 0px 0px 0px 0px !important;
+    line-height: 1.2em !important;
+    font-size: 1.8em !important;
+    font-style: normal !important;
+    letter-spacing: -.04em !important;
+}
+
+span {
+    font-size: .8em;
+}
+
+.social-links {
+    margin: -30px 0px 0px 0px;
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.social-links li {
+}
+
+.social-links i {
+    border-radius: 100%;
+    padding: .25em;
+    margin-right: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    font-size: 20px;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: black;
+}
+
+.nav-item a {
+    font-size: 20px !important;
+    display: block;
+    padding: .6em;
+    margin: 0;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    color: rgba(52, 52, 52, 1) !important;
+}
+
+.tb_866164f.module_row {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    font: 1em/1.65em 'Open Sans',"Arial",sans-serif !important;
+    overflow: scroll;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;   
+}
+
+h3 span {
+    color: #000000;
+    font-size: 30px !important;
+}
+
+hr {
+    width: 90px;
+    border-top: 1px solid black !important;
+}
+
+
+
+
+a {
+    
+    color: black !important;
+    text-decoration: none !important;
+
+}
+
+
+@media only screen and (max-device-width: 681px) {
+    .social-links{
+       display: none !important;
+    }
+}
+
+iframe {
+    margin: 30px 0px;
+}
+
+
+.scCursor {
+    cursor: default;
+    font-size: 26.6px;
+}
+
+.scCursor:hover {
+    color: rgb(138, 135, 135) !important;
+}
+
+.scList {
+    text-align: center;
+}
+
+.scList> span {
+    border: 1px solid rgb(138, 135, 135);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.scList> a , .scList> span {
+    margin: 5px;
+}
+
+.scList> a, .scList> a > i{
+    color: #ed1e24 !important;
+    font-weight: bold;
+}
+
+.scList> a, .scList> span  {
+    font-size: 20.9px;
+}
+
+.scList> a:hover , .scList> a > i:hover{
+    text-decoration: underline !important;
+    color: rgb(138, 135, 135) !important;
+}
